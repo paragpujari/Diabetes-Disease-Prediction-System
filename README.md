@@ -39,3 +39,25 @@ There are total 768 records of the diabetic patients in the dataset. From this r
 9.  The model that has better accuracy will be considered for determining the  diabetic condition of the patient.
 10. A prediction system is also built that helps in determining whether the person is having diabetes or not using a test data.
 11. Then we have developed the web application for depicting the diabetic condition of the patient.
+
+
+## The hyperparameters used in this project is of below:
+. Input
+  . Training data : 80 % data
+  . Testing  data : 20 % data
+
+. kernel : linear
+
+. random state : 1
+
+## Project Results
+The model used on MRI images test set provides the following result:
+
+Logistic Regression: 
+  .    Accuracy for Training Dataset : (78% Accuracy)
+  .    Accuracy for Testing Dataset  : (84% Accuracy)
+
+
+Support Vector Machines: 
+  .    Accuracy for Training Dataset : (77% Accuracy)
+  .    Accuracy for Testing Dataset  : (84% Accuracy)
