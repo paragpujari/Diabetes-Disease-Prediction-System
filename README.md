@@ -6,13 +6,13 @@ Diabetes is a chronic medical condition characterized by high levels of glucose 
 
 In this project,  we are using two Machine Learning models named as Logistic Regression and Support Vector Machines in detecting whether the particular person has diabetes or not based on the heath conditions provided in the dataset.
 
-## OBJECTIVE:
+## Objective:
 The main motto of this project is to  detect whether the person is having diabetes or not with the help of two machine learning models named as Logistic Regression and Support Vector Machines. From this two models, we can predict which model will provide better accuracy in detecting whether the person is having diabetes or not.
 
-## PROBLEM STATEMENT:
+## Problem Statement:
 Diabetes is a chronic medical condition characterized by high levels of glucose in the blood due to the body's inability to produce or effectively use insulin. Detecting the diabetes at an early stage can serve as potential indicators of saving our lives, which is crucial in our fight against this formidable advisory. Therefore, to detect whether the person is having diabetes or not, we aim to use two machine learning models  named as Logistic Regression and Support Vector Machines for detecting the diabetes in the person.
 
-## DATASET:
+## Dataset:
 
 There are total 768 records of the diabetic patients in the dataset. From this records, there are total eight input features('Pregnancies','Glucose', 'BloodPressure', 'SkinThickness', 'Insulin' , 'BMI','DiabetesPedigreeFunction','Age') and one Output feature ('Outcome')
 
