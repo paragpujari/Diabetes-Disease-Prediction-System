@@ -25,3 +25,17 @@ There are total 768 records of the diabetic patients in the dataset. From this r
 7.    Diabetes Pedigree Function     --------->   Diabetes pedigree function
 8.    Age                            --------->   Age (years)
 9.    Outcome                        --------->   Class variable (0 or 1)
+
+## Approach
+
+1.  First the diabetes dataset is obtained.
+2.  Then the dataset is cleaned and preprocessed.
+3.  The dataset is divided into independent(input features) and dependent(output features).
+4.  As all the input features in the dataset are in different range, so Standardization is done to keep all the input features in one range.
+5.  The dataset is divided into training and testing data.
+6.  Two Machine Learning Models(Logistic Regression) and (Support Vector Machines) are used to test the accuracy level of the model.
+7.  Using the above two models, the data is first trained, then using the test data, the model is predicted and we get the predicted output for each algorithms.
+8.  Then we calculate the accuracy value for each training and testing data for both the models.
+9.  The model that has better accuracy will be considered for determining the  diabetic condition of the patient.
+10. A prediction system is also built that helps in determining whether the person is having diabetes or not using a test data.
+11. Then we have developed the web application for depicting the diabetic condition of the patient.
